@@ -4,8 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:textAlignment="center"
     tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="342dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textWebEmailAddress|textEmailAddress"
+        android:textAllCaps="false"
+        android:textColorHint="#B1ABAB"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="347dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -25,5 +38,66 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="342dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName|textPassword"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="107dp"
+        android:layout_height="40dp"
+        android:text="Log In"
+        android:textColor="#FF585E"
+        android:textColorLink="#FF585E"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF585E"
+        android:text="Log In"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="186dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#F8F8F8"
+        android:text="Remember Me"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="650dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:linksClickable="true"
+        android:text="Sign Up!"
+        android:textAlignment="center"
+        android:textColor="#FF585E"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="650dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
