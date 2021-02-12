@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "856882648514",
+    "project_id": "datehack-a0388",
+    "storage_bucket": "datehack-a0388.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856882648514:android:d7c4633b91d2926111b25b",
+        "android_client_info": {
+          "package_name": "com.example.datehack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856882648514-vd2vq4uc0qatt3qmq3gkq477l9nib1mu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQWVI0TaOXmhd2nRAVuuGUC1sZo91G_vA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856882648514-vd2vq4uc0qatt3qmq3gkq477l9nib1mu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
