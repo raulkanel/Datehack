@@ -1,2 +1,0 @@
-# Datehack
-datehack sunway
