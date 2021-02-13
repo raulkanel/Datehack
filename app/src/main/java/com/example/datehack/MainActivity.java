@@ -75,14 +75,13 @@ public class MainActivity extends AppCompatActivity {
 
                     }
                 });
+                mCreateBtn.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        startActivity(new Intent(getApplicationContext(), SignUpActivity.class));
+                    }
+                });
 
-            }
-        });
-
-        mCreateBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),register.class));
             }
         });
 
